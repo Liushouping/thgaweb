@@ -21,8 +21,8 @@
 
             <section class="max-w-7xl mx-auto px-4 lg:px-0 mt-12 mb-12 " data-aos="fade-up" data-aos-delay="300">
                 <section class="text-gray-600 body-font relative">
-                <div class="absolute inset-0 bg-gray-300">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3615.047455431923!2d121.5554897145973!3d25.032463544507976!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442ab1e106d0127%3A0xacf40caabb40f87c!2zQVfmrrfnhYzlnIvpmpvotoXot5Hnp5_os4M!5e0!3m2!1szh-TW!2stw!4v1634024670786!5m2!1szh-TW!2stw" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                <div class="absolute inset-0 bg-gray-50">
+                    <img src="https://scontent.frmq2-2.fna.fbcdn.net/v/t1.6435-9/244639453_4451103844985807_7454571873344117302_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=0debeb&_nc_ohc=K3qNQW94KBkAX8ScHxy&_nc_ht=scontent.frmq2-2.fna&oh=ed6d13b6aa13a46f94be2cd4fa85e718&oe=61A10577" width="100%" height="100%" class="rounded-lg"></img>
                 </div>
                 <div class="container px-5 py-24 mx-auto flex">
                     <div class="border-t-8 border-indigo-600 lg:w-1/3 md:w-1/2 bg-white rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0 relative z-10 shadow-md">
@@ -30,7 +30,6 @@
                     @csrf
                     <h2 class="text-gray-900 text-lg mb-1 font-medium title-font">{{ __('聯絡我們') }}</h2>
                     <hr class="my-3">
-                    <!-- <p class="leading-relaxed mb-5 text-gray-600">有任何意見或者建議，都可以透過表單傳送！</p> -->
                     <div class="relative mb-4">
                         <label for="name" class="leading-7 text-sm text-gray-600">{{ __('姓名') }}</label>
                         <input type="text" id="name" name="name" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" required>

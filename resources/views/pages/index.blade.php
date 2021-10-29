@@ -5,51 +5,42 @@
 @stop
 
 @section('content')
-<!-- 導覽列 -->
-<!-- <section>
-  <div class="max-w-7xl mx-auto py-6 flex flex-col justify-center sm:py-12">
-    <div class="grid md:grid-cols-4 grid-cols-2 gap-4 px-4">
+<!-- 客家標語 -->
+<section>
+  <div class="max-w-3xl mx-auto py-6 flex flex-col justify-center sm:py-12">
+    <div class="grid grid-cols-3 gap-8 px-4">
 
-      <div class="bg-white border-2 border-gray-500 p-4 rounded-3xl flex justify-around cursor-pointer group hover:bg-gray-900">
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-14 w-14 text-gray-800 group-hover:text-yellow-300" viewBox="0 0 20 20" fill="currentColor">
-          <path fill-rule="evenodd" d="M18 8a6 6 0 01-7.743 5.743L10 14l-1 1-1 1H6v2H2v-4l4.257-4.257A6 6 0 1118 8zm-6-4a1 1 0 100 2 2 2 0 012 2 1 1 0 102 0 4 4 0 00-4-4z" clip-rule="evenodd" />
+      <div class="flex justify-center">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-14 w-14 text-gray-300 mr-4" viewBox="0 0 20 20" fill="currentColor">
+          <path fill-rule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
         </svg>
         <div class="flex flex-col justify-center">
-          <p class="text-gray-900 font-black text-xl group-hover:text-yellow-300">超跑車款</p>
+          <p class="text-gray-300 font-solid text-xl">推廣客家美食</p>
         </div>
         <div class="absolute top-0 left-0 z-10 grid-indigo w-16 h-16 md:w-40 md:h-40 md:ml-20 md:mt-24"></div>
       </div>
 
-      <div class="bg-white border-2 border-gray-500 p-4 rounded-3xl flex justify-around cursor-pointer group hover:bg-gray-900">
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-14 w-14 text-gray-800 group-hover:text-yellow-300" viewBox="0 0 20 20" fill="currentColor">
-          <path fill-rule="evenodd" d="M18 8a6 6 0 01-7.743 5.743L10 14l-1 1-1 1H6v2H2v-4l4.257-4.257A6 6 0 1118 8zm-6-4a1 1 0 100 2 2 2 0 012 2 1 1 0 102 0 4 4 0 00-4-4z" clip-rule="evenodd" />
+      <div class="flex justify-center">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-14 w-14 text-gray-300 mr-4" viewBox="0 0 20 20" fill="currentColor">
+          <path fill-rule="evenodd" d="M10.496 2.132a1 1 0 00-.992 0l-7 4A1 1 0 003 8v7a1 1 0 100 2h14a1 1 0 100-2V8a1 1 0 00.496-1.868l-7-4zM6 9a1 1 0 00-1 1v3a1 1 0 102 0v-3a1 1 0 00-1-1zm3 1a1 1 0 012 0v3a1 1 0 11-2 0v-3zm5-1a1 1 0 00-1 1v3a1 1 0 102 0v-3a1 1 0 00-1-1z" clip-rule="evenodd" />
         </svg>
         <div class="flex flex-col justify-center">
-          <p class="text-gray-900 font-black text-xl group-hover:text-yellow-300">性能車款</p>
+          <p class="text-gray-300 font-solid text-xl group-hover:text-yellow-300">發揚客家文化</p>
         </div>
       </div>
 
-      <div class="hidden bg-white border-2 border-gray-500 p-4 rounded-3xl md:flex justify-around cursor-pointer group hover:bg-gray-900">
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-14 w-14 text-gray-800 group-hover:text-yellow-300" viewBox="0 0 20 20" fill="currentColor">
-          <path fill-rule="evenodd" d="M18 3a1 1 0 00-1.447-.894L8.763 6H5a3 3 0 000 6h.28l1.771 5.316A1 1 0 008 18h1a1 1 0 001-1v-4.382l6.553 3.276A1 1 0 0018 15V3z" clip-rule="evenodd" />
+      <div class="flex justify-center">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-14 w-14 text-gray-300 mr-4" viewBox="0 0 20 20" fill="currentColor">
+          <path d="M13 6a3 3 0 11-6 0 3 3 0 016 0zM18 8a2 2 0 11-4 0 2 2 0 014 0zM14 15a4 4 0 00-8 0v3h8v-3zM6 8a2 2 0 11-4 0 2 2 0 014 0zM16 18v-3a5.972 5.972 0 00-.75-2.906A3.005 3.005 0 0119 15v3h-3zM4.75 12.094A5.973 5.973 0 004 15v3H1v-3a3 3 0 013.75-2.906z" />
         </svg>
         <div class="flex flex-col justify-center">
-          <p class="text-gray-900 font-black text-xl group-hover:text-yellow-300">臉書專頁</p>
-        </div>
-      </div>
-
-      <div class="hidden bg-white border-2 border-gray-500 p-4 rounded-3xl md:flex justify-around cursor-pointer group hover:bg-gray-900">
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-14 w-14 text-gray-800 group-hover:text-yellow-300" viewBox="0 0 20 20" fill="currentColor">
-          <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd" />
-        </svg>
-        <div class="flex flex-col justify-center">
-          <p class="text-gray-900 font-black text-xl group-hover:text-yellow-300">地圖資訊</p>
+          <p class="text-gray-300 font-solid text-xl">傳承客家廚藝</p>
         </div>
       </div>
 
     </div>
   </div>
-</section> -->
+</section>
 <!-- 最新消息 -->
 <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-4 mt-12 mb-12 relative">
     <article>
